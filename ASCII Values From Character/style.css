@@ -1,0 +1,21 @@
+body{
+    margin: 100px;
+}
+
+p {
+    font-size: 50px; 
+    text-align: center; 
+    margin: auto;
+    min-height: 80px;
+    padding: 20px;
+}
+
+.body {
+    margin: auto; 
+    margin-top: 70px;
+    background-color: white; 
+    width: 40%; 
+    padding: 3px; 
+    text-align: center; 
+    display: flex
+}
