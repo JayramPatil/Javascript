@@ -6,6 +6,11 @@
     position: relative;
 
 }
+@media only screen and (max-width: 1226px) {
+    #top {
+        display: none;
+    }
+}
 .container{
     margin: auto;
     min-width:40%;
@@ -70,4 +75,36 @@
     border-color: lavenderblush;
     text-align: center;
     font-size: 45px;
+}
+.top{
+    position:absolute;
+    background-color: rgb(8, 0, 0);
+    width: 60%;
+    height: 8px;
+    margin: auto;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    bottom: 0px;
+}
+.firstDiv{
+    top: 25%;
+    left:22%;
+    position:absolute;
+    width: 7%;
+    height: 10px;
+    margin: auto;
+    min-width:5%;
+    height: 52%;
+    
+}
+.topN{
+    position:absolute;
+    width: 70%;
+    height: 8px;
+    margin: auto;
+    margin-bottom: 20px;
+    bottom: 0px;
+    text-align: left;
+    font-size: 24px;
+    min-width: 20px;
 }
