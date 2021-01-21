@@ -8,6 +8,13 @@
     float: left; 
     margin-top: 60px;
 }
+.text{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    color: darkorange; 
+    transform: translate(-50%, -50%);
+}
 .colour{
     display: inline-block; 
     width: 15%; 
@@ -17,15 +24,29 @@
 }
 .btn{
 
-    float: left; 
     width: 30%; 
     height: 40px;
     border-radius: 8%; 
     border: solid;
+    border-width: 1px;
+    background-color: tomato;
     margin: 10px;
     padding: 5px;
 }
 .buy{
     height: 50px;
     width:50%;
+    background-color: yellow;
+}
+#colour1{
+    background-color: red;
+}
+#colour2{
+    background-color: black;
+}
+#colour3{
+    background-color: blue;
+}
+#colour4{
+    background-color: pink;
 }
