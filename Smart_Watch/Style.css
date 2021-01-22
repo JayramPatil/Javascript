@@ -1,3 +1,6 @@
+body{
+    background-color:lightblue;
+}
 .img{
     position: relative;
     float: left; 
@@ -14,6 +17,17 @@
     left: 50%; 
     color: darkorange; 
     transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+#heart{
+    position: absolute; 
+    top: 43%; 
+    left: 50%; 
+    color: darkorange; 
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 20%;
+visibility: hidden;
 }
 .colour{
     display: inline-block; 
@@ -21,6 +35,7 @@
     height: 40px;
     border-radius: 15%; 
     border: solid;
+    border-color: black;
 }
 .btn{
 
@@ -39,14 +54,15 @@
     background-color: yellow;
 }
 #colour1{
-    background-color: red;
+    background-color: #ca3d22;
+    border-color: white;
 }
 #colour2{
-    background-color: black;
+    background-color: #23211f;
 }
 #colour3{
-    background-color: blue;
+    background-color: #565681;
 }
 #colour4{
-    background-color: pink;
+    background-color: #8a5362;
 }
