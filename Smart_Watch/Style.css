@@ -6,6 +6,7 @@ body{
     float: left; 
     width: 40%; 
     margin-top: 40px;
+    border: black;
 }
 .info{
     float: left; 

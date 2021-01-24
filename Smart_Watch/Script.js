@@ -2,6 +2,8 @@ var display = document.getElementById('text');
 var img = document.getElementById('img');
 var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
+var btn3 = document.getElementById('buy');
+
 var heart = document.getElementById('heart');
 
 var c1 = document.getElementById('colour1');
@@ -80,6 +82,9 @@ c4.addEventListener('click', function (){
     img.src = "https://i.imgur.com/xSIK4M8.png";
     border();
     c4.style.borderColor = "white";
+})
+btn3.addEventListener('click', function (){
+    alert("All Products Are Out Of Stock..... \nSo Dont Click Buy Now Button   : )")
 })
 
 f();
