@@ -9,16 +9,16 @@
     <body>
         <h1 align="center">Garibacha Calculator</h1>
 
-        <div class="container">
+        <div class="calculator">
             <div style="width: 50%; max-width: 400px;">
                 <div class="display">
                     <p id="dis">0</p>
                 </div>
                 <div class="keyboard">
-                    <button>+</button>
-                    <button>-</button>
-                    <button>&times;</button>
-                    <button>%</button>
+                    <button class="operator" data-action="add">+</button>
+                    <button class="operator" data-action="substract">-</button>
+                    <button class="operator" data-action="multiply">&times;</button>
+                    <button class="operator" data-action="divide">%</button>
 
                     <button>7</button>
                     <button>8</button>
@@ -30,9 +30,9 @@
                     <button>2</button>
                     <button>3</button>
                     <button>0</button>
-                    <button>.</button>
-                    <button>AC</button>
-                    <button class="a">=</button>
+                    <button data-action="dot">.</button>
+                    <button data-action="clear">AC</button>
+                    <button class="a" data-action="equalto">=</button>
 
                 </div>
             </div>

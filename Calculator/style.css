@@ -1,4 +1,4 @@
-.container{
+.calculator{
     width: 80%;
     margin: auto;
     display: flex;
@@ -46,4 +46,7 @@ button:active{
 p{
     margin: 5%;
     padding-right: 5%;
+}
+.pressed{
+    background-color: lightgray;
 }
