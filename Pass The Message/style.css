@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(121, 177, 177);
+    font-size: 25px;
+}
+div{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25vh;
+}
+.textbox{
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-size: 25px;
+}
+.warning{
+    display: none;
+    background-color: rgba(192, 37, 37, 0.5);
+    padding: 10px;
+}
+.btn{
+    font-size: 24px;
+}
+.btn:hover{
+    background-color: lightpink;
+}
+.lastmsg{
+    opacity: 0.5;
+}
