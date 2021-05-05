@@ -11,7 +11,7 @@ while(start <= end)
             sum1 += i;
         }
     }
-
+    
     if(start != sum1)
     {
         for(i = 1; i<=(sum1/2); i++)
