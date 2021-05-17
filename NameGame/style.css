@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("horror.jpg");
+    background-size: cover;
+}
+section{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 15px 50px red;
+}
+input[type="text"]{
+    display: block;
+    margin: 10px auto;
+    align-self: center;
+    max-width: 90%;
+    font-size: 30px;
+    font-family: Creepster;
+    font-family: 'Freckle Face';
+}
+h1{
+    font-size: 70px;
+    color: red;
+    font-family: 'Freckle Face';
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 10px 15px 30px black;
+}
+h5{
+    float: right;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: red;
+}
+label{
+    font-size: 25px;
+    color: white;
+}
+input[type="button"]{
+    display: block;
+    padding: 10px;
+    min-width: 60%;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Creepster;
+    font-size: 30px;
+    margin: auto;
+    background-color:rgb(196, 4, 4);
+    color: white;
+}
+input:focus{
+    border-color: red;
+    border-width: 3px;
+}
+.container{
+    font-size: 40px;
+    font-family: Creepster;
+    color: red;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
+.para{
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 5px 5px 30px black;
+    color: yellow;
+    text-decoration: underline;
+}
