@@ -8,8 +8,7 @@ buttons.addEventListener('click',function(e){
     const key = e.target;
     const action =key.dataset.action;
     if(e.target.matches('button'))
-    {
-        
+    {        
         if(action === 'add' || action === 'substract' || action === 'multiply' || action === 'divide')
         {
             if(LastKey != '+' && LastKey != '-' && LastKey != '*' && LastKey != '/')
