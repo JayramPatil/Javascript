@@ -15,7 +15,6 @@ btn.addEventListener('click',function(){
         warning.style.display = "block"
         setTimeout(() => {
             warning.style.display = "none"
-        }, 2000);
-        
+        }, 2000);      
     }
 })
