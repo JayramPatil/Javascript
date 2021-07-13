@@ -42,7 +42,6 @@ function size(){
     }
     heart.style.width = d + '%';
     d++;
-
 }
 
 btn1.addEventListener('click', function (){
